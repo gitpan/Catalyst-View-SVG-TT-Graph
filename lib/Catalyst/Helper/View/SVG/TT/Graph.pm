@@ -2,9 +2,11 @@ package Catalyst::Helper::View::SVG::TT::Graph;
 
 use strict;
 
+our $VERSION = 0.02;
+
 =head1 NAME
 
-Catayst::Helper::View::SVG::TT::Graph - Helper for Catalyst::View::SVG::TT::Graph
+Catalyst::Helper::View::SVG::TT::Graph - Helper for Catalyst::View::SVG::TT::Graph
 
 =head1 SYNOPSIS
 
@@ -12,12 +14,9 @@ Catayst::Helper::View::SVG::TT::Graph - Helper for Catalyst::View::SVG::TT::Grap
 
 =cut
 
-our $VERSION = 0.010;
-
 sub mk_compclass {
     my ( $self, $helper ) = @_;
     my $file = $helper->{file};
-    `touch /tmp/testhelper`;
     $helper->render_file( 'compclass', $file );
 }
 

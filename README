@@ -9,7 +9,9 @@ Features
 --------
 
  * Different chart types: bar, line, pie, horizontal bar
- * Multiple image formats (SVG/PNG/JPEG) + any supported by Image::LibRSVG
+ * Output in multiple image formats (SVG/PNG/JPEG) + any supported by Image::LibRSVG
+ * Configure options globally or before calling your view
+ * Multiple sets of data values supported
  * Gzip compression by default for SVG
 
 Installation

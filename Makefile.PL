@@ -8,7 +8,7 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Catalyst/View/SVG/TT/Graph.pm', # finds $VERSION
     PREREQ_PM         => {
                             'Image::LibRSVG'                => '0.07',
-                            'Carp'                          => 1.11
+                            'Carp'                          => '1.11'
                         }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Catalyst/View/SVG/TT/Graph.pm', # retrieve abstract from module
