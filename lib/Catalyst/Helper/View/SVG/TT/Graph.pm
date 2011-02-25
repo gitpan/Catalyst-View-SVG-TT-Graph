@@ -2,7 +2,7 @@ package Catalyst::Helper::View::SVG::TT::Graph;
 
 use strict;
 
-our $VERSION = 0.02;
+our $VERSION = 0.021;
 
 =head1 NAME
 
@@ -28,6 +28,8 @@ Terence Monteiro <terencemo[at]cpan.org>
 
 This library is free software. You can redistribute it and/or modify it under
 the same terms as Perl itself.
+
+=begin comment
 
 =cut
 
@@ -71,3 +73,9 @@ the same terms as Perl itself.
 =cut
 
 1;
+
+__the_end__
+
+=end comment
+
+=cut
