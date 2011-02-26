@@ -1,7 +1,8 @@
+Changes
 MANIFEST
 Makefile.PL
 README
+lib/Catalyst/Helper/View/SVG/TT/Graph.pm
 lib/Catalyst/View/SVG/TT/Graph.pm
 t/Catalyst-View-SVG-TT-Graph.t
-lib/Catalyst/Helper/View/SVG/TT/Graph.pm
 META.yml                                 Module meta-data (added by MakeMaker)
