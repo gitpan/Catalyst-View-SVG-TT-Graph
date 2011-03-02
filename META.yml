@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Catalyst-View-SVG-TT-Graph
-version:            0.022
+version:            0.0221
 abstract:           SVG::TT::Graph charts (in svg/png/gif/jpeg..) for your Catalyst application
 author:
     - Terence Monteiro <terencemo@cpan.org>
